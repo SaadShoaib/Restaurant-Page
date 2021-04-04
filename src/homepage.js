@@ -2,6 +2,9 @@ function homepage() {
 //Selecting the lower container.
 const lowerContainer = document.querySelector(".lower-container");
 
+//Clears the previous JS
+lowerContainer.innerHTML = "";
+
 //Now doing the lower-container
 const copyDiv = document.createElement("div");
 copyDiv.classList.add("copy");

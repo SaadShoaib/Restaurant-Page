@@ -1,5 +1,8 @@
 function contact() {
     const lowerContainer = document.querySelector(".lower-container");
+    //Clears the previous JS
+    lowerContainer.innerHTML = "";
+
     const contactContainer = document.createElement("div")
     contactContainer.classList.add("contact-container")
 

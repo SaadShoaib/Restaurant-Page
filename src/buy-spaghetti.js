@@ -1,6 +1,10 @@
 function buySpaghetti() {
     //Selecting the lower-container and making the menu container
     const lowerContainer = document.querySelector(".lower-container");
+
+    //Clears the previous JS
+    lowerContainer.innerHTML = "";
+
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu-container");
 
@@ -42,7 +46,7 @@ function buySpaghetti() {
     const li3 = document.createElement("li");
     li3.classList.add("boiled")
     const h3 = document.createElement("h3")
-    const h3Text = document.createTextNode("Guaranted To Make You Vomit");
+    const h3Text = document.createTextNode("Guaranteed To Make You Vomit");
     const img3 = document.createElement("img");
     img3.src = "./images/boiled-spaghetti.jpg";
 
