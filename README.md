@@ -10,4 +10,4 @@ Since everything is rendered through Javascript, there is no loading involved.
 
 [Live version of the site](https://saadshoaib.github.io/Restaurant-Site/dist/index.html#).
 
-This project is part of **theodinproject.com** curriculmn.
+This project is part of **theodinproject.com** curriculm.
